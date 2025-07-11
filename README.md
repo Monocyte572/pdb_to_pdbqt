@@ -1,5 +1,6 @@
 # pdb_to_pdbqt
  download and prepare a pdb file for docking wth Vina-flavoured algorithms
+ not to use for autock tool - it could be crushed
 
 # run notebook
 user must input the PDB code (5WIU in the test case), and the ligand resname (AQD in the test case). If performing the optional step of parameterizing the ligand with GAFF (via openmmforcefields), user must also input the ligand isomeric SMILES code.
